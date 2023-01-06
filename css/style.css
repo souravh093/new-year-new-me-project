@@ -1,5 +1,205 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+.main-area {
+    padding: 0 300px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/* header area styles */
+.header {   
+    background: url('../images/banner/background.png');
+    background-size: cover;
+    height: 500px;
+    padding: 200px;
+}
+
+.header .header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 66px;
+    margin-bottom: 20px;
+    color: #474747;
+    letter-spacing: 2px;
+}
+
+.header .header-sub-title {
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.header .header-btn {
+    padding: 20px 30px;
+    font-size: 28px;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
+.header .header-btn a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+/* failures section styles */
+
+.failure-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.failure-area .failure-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #474747;
+}
+
+.failure-area .failure-sub-title {
+    color: #474747;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.failure-area .list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.failure-area .list-container .list-item {
+    list-style: none;
+    font-size: 20px;
+}
+
+.failure-area .list-container .list-item .fa-circle-check{
+    color: #16D887;
+}
+
+/* plan area styles */
+.plan-area .plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #474747;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-container .plan-item .plan-content-title {
+    margin: 15px 0;
+    font-size: 30px;
+    color: #474747;
+}
+
+.plan-container .plan-item .plan-slogan {
+    font-size: 24px;
+}
+
+/* call to action styles */
+.call-to-action {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.call-to-action .action-title {
+    font-size: 34px;
+    line-height: 45px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.call-to-action .action-btn {
+    padding: 15px 25px;
+    font-size: 24px;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action .action-btn a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+
+/* footer area styles */
+.footer-area {
+    display: flex;
+    padding: 150px 300px;
+    justify-content: space-between;
+    background: #151414;
+    color: #f7f7f7;
+}
+
+.address-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address-content .address-title {
+    font-size: 45px;
+    color: #f7f7f7;
+}
+
+.address-content .social-content {
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscribe-content .subscribe-title {
+    font-size: 36px;
+    color: #f7f7f7;
+}
+
+.subscribe-content input {
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.subscribe-content .subscribe-btn {
+    padding: 15px 25px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    width: 172px;
+    background: #ffffff;
+}
+
+.subscribe-content .subscribe-btn a {
+    text-decoration: none;
+    color: #F15B22;
+}
