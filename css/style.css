@@ -56,6 +56,15 @@ section {
     margin-top: 40px;
 }
 
+.failure-area .failure-img {
+    width: 100%;
+}
+
+.failure-area .failure-content {
+    width: 100%;
+}
+
+
 .failure-area .failure-title {
     font-weight: 700;
     font-size: 45px;
@@ -114,6 +123,72 @@ section {
 .plan-container .plan-item .plan-slogan {
     font-size: 24px;
 }
+
+/* testimonials area styles */
+
+.textimonials-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textimonials-title-container .textimonials-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #474747;
+}
+
+.textimonials-title-container .textimonials-sub-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.textimonials-content {
+    display: flex;
+}
+
+.first-item {
+    margin-right: 40px;
+}
+
+.single-item .content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.single-item .comment {
+    color: #474747;
+}
+
+.single-item .name-position {
+    color: #474747;
+}
+
+.single-item .name-position .bold-position {
+    font-weight: 700;
+}
+
+.single-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.textimonials-content .content-img img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 
 /* call to action styles */
 .call-to-action {
@@ -207,3 +282,6 @@ section {
     color: #F15B22;
 
 }
+
+
+
